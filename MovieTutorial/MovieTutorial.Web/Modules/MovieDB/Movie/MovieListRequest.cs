@@ -1,0 +1,10 @@
+﻿using Serenity.Services;
+using System.Collections.Generic;
+
+namespace MovieTutorial.MovieDB
+{
+    public class MovieListRequest : ListRequest
+    {
+        public List<int> Genres { get; set; }
+    }
+}
